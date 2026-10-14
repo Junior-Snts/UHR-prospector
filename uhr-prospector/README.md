@@ -5,7 +5,7 @@ Usinas Hidrelétricas Reversíveis (UHR)** associados a um reservatório hidrel�
 existente, a partir de um Modelo Digital de Elevação (MDE) e de pontos de
 referência marcados junto ao reservatório principal.
 
-Desenvolvido como parte de um TCC/pesquisa acadêmica. Versão **1.1.1**.
+Desenvolvido como parte de uma pesquisa acadêmica. Versão **1.1.1**.
 
 > Ferramenta de **prospecção preliminar**: usa apenas topografia e parâmetros
 > técnicos informados. Não considera geologia, meio ambiente, uso do solo,
@@ -20,7 +20,7 @@ Assim o plugin aparece na busca de *Complementos* e recebe atualizações.
 3. Nome: `UHR Prospector`. URL:
 
    ```
-   https://raw.githubusercontent.com/Junior-Snts/uhr-prospector/main/plugins.xml
+   https://raw.githubusercontent.com/Junior-Snts/UHR-prospector/main/uhr-prospector/plugins.xml
    ```
 4. Confirme, vá na aba **Todos**, pesquise **UHR Prospector** e clique em **Instalar**.
 
