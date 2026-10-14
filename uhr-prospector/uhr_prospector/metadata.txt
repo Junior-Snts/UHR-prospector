@@ -1,0 +1,20 @@
+[general]
+name=UHR Prospector
+qgisMinimumVersion=3.22
+qgisMaximumVersion=3.99
+description=Prospecção automatizada de reservatórios secundários para Usinas Hidrelétricas Reversíveis (UHR) a partir de um reservatório existente e um MDE.
+version=1.1.1
+author=Antonio Claudio dos Santos Júnior
+email=ajunior2100@gmail.com
+about=Delimita a área de busca ao redor de pontos de referência marcados junto a um reservatório hidrelétrico existente, identifica sítios de barragem em talvegues, simula a inundação, estima área, cota e volume, calcula distância e queda, aplica critérios geométricos, hidráulicos e volumétricos, estima potência e energia e ranqueia os candidatos. Método preliminar de prospecção (nível de inventário) baseado apenas em topografia e parâmetros técnicos informados; não considera geologia, meio ambiente, uso do solo nem custos e não substitui estudos de engenharia. Requisitos: QGIS 3.22 a 3.x (Qt5) e, no Python do QGIS, numpy, scipy e GDAL (osgeo). Se faltar o scipy: no Windows, abra o OSGeo4W Shell e execute 'pip install scipy'; no Linux, instale o pacote python3-scipy. Entradas: camada de pontos de referência (tomadas) e MDE local em metros. Documentação completa na pasta docs do plugin.
+tracker=https://github.com/Junior-Snts/uhr-prospector/issues
+repository=https://github.com/Junior-Snts/uhr-prospector
+tags=hydropower,pumped storage,UHR,DEM,reservoir,prospecting
+homepage=https://github.com/Junior-Snts/uhr-prospector
+category=Plugins
+icon=icon.svg
+experimental=False
+deprecated=False
+changelog=1.1.1 - validação: ciclos/dia x (horas de geração + bombeamento) <= 24 h; documento de influência dos parâmetros
+ 1.1.0 - entrada por pontos de referência (substitui o polígono); nível do principal por platô do MDE
+ 1.0.0 - versão inicial

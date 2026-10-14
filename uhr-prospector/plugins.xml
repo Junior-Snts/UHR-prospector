@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugins>
+  <pyqgis_plugin name="UHR Prospector" version="1.1.1">
+    <description>Prospecção automatizada de reservatórios secundários para Usinas Hidrelétricas Reversíveis (UHR) a partir de um reservatório existente e um MDE.</description>
+    <about>Delimita a área de busca ao redor de pontos de referência marcados junto a um reservatório hidrelétrico existente, identifica sítios de barragem em talvegues, simula a inundação, estima área, cota e volume, calcula distância e queda, aplica critérios geométricos, hidráulicos e volumétricos, estima potência e energia e ranqueia os candidatos. Método preliminar de prospecção (nível de inventário) baseado apenas em topografia e parâmetros técnicos informados; não considera geologia, meio ambiente, uso do solo nem custos e não substitui estudos de engenharia. Requisitos: QGIS 3.22 a 3.x (Qt5) e, no Python do QGIS, numpy, scipy e GDAL (osgeo). Se faltar o scipy: no Windows, abra o OSGeo4W Shell e execute 'pip install scipy'; no Linux, instale o pacote python3-scipy. Entradas: camada de pontos de referência (tomadas) e MDE local em metros. Documentação completa na pasta docs do plugin.</about>
+    <qgis_minimum_version>3.22</qgis_minimum_version>
+    <qgis_maximum_version>3.99</qgis_maximum_version>
+    <homepage>https://github.com/Junior-Snts/uhr-prospector</homepage>
+    <file_name>uhr_prospector-1.1.1.zip</file_name>
+    <icon>https://raw.githubusercontent.com/Junior-Snts/uhr-prospector/main/uhr_prospector/icon.svg</icon>
+    <author_name>Antonio Claudio dos Santos Júnior</author_name>
+    <download_url>https://raw.githubusercontent.com/Junior-Snts/uhr-prospector/main/dist/uhr_prospector-1.1.1.zip</download_url>
+    <uploaded_by>Antonio Claudio dos Santos Júnior</uploaded_by>
+    <create_date>2026-10-14T21:33:15+00:00</create_date>
+    <update_date>2026-10-14T21:33:15+00:00</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <tracker>https://github.com/Junior-Snts/uhr-prospector/issues</tracker>
+    <repository>https://github.com/Junior-Snts/uhr-prospector</repository>
+    <tags>hydropower,pumped storage,UHR,DEM,reservoir,prospecting</tags>
+    <server>False</server>
+  </pyqgis_plugin>
+</plugins>
